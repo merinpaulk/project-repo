@@ -22,8 +22,6 @@
 		
 		MP added again
 		
-		git-project-2 trial - conflicting line
-		
 		</br>
 		
 		last try
