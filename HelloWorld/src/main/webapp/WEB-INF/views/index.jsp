@@ -11,7 +11,8 @@
 		Welcome to Spring Roo
 		<br/>
 		
-		MP added first line
+	<!--  commenting all below -->
+		<!-- MP added first line
 		
 		</br>
 		
@@ -33,7 +34,7 @@
 
 		this should work
 
-		again and again
+		again and again -->
 
 		
 </body>
