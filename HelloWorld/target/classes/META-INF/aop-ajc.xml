@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="com.bcs.demo.domain.Patent_Roo_Configurable"/>
+<aspect name="com.bcs.demo.domain.Patent_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.bcs.demo.domain.Patent_Roo_ToString"/>
+<aspect name="com.bcs.demo.web.PatentController_Roo_Controller"/>
+<aspect name="com.bcs.demo.domain.Patent_Roo_Jpa_Entity"/>
+<aspect name="com.bcs.demo.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.bcs.demo.domain.Patent_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

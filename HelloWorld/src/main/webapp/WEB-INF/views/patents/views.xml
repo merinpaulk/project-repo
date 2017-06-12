@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="patents/list">
+        <put-attribute name="body" value="/WEB-INF/views/patents/list.jspx"/>
+    </definition>
+<definition extends="default" name="patents/show">
+        <put-attribute name="body" value="/WEB-INF/views/patents/show.jspx"/>
+    </definition>
+<definition extends="default" name="patents/create">
+        <put-attribute name="body" value="/WEB-INF/views/patents/create.jspx"/>
+    </definition>
+<definition extends="default" name="patents/update">
+        <put-attribute name="body" value="/WEB-INF/views/patents/update.jspx"/>
+    </definition>
+</tiles-definitions>

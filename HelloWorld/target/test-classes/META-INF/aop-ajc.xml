@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.bcs.demo.domain.PatentDataOnDemand_Roo_Configurable"/>
+<aspect name="com.bcs.demo.domain.PatentIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.bcs.demo.domain.PatentIntegrationTest_Roo_Configurable"/>
+<aspect name="com.bcs.demo.domain.PatentDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

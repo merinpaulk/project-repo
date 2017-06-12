@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_bcs_demo_domain_Patent" items="${patents}" z="63jrYTwJWTAcbfAbuUCZ2NqtGvM=">
+        <table:table data="${patents}" id="l_com_bcs_demo_domain_Patent" path="/patents" z="rJeSHPsiUlBc7DAjlhAijS2sglA=">
+            <table:column id="c_com_bcs_demo_domain_Patent_patentNumber" property="patentNumber" z="9CoH4x6vcdAAYR7wN16Ry9KCg70="/>
+        </table:table>
+    </page:list>
+</div>
