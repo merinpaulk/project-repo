@@ -8,21 +8,10 @@
 </head>
 <body>
 
-		Andy's new First line - again3<p/>
-
 		Welcome to Spring Roo
-		This serves as the landing page
+		<br/>
 		
-		Change from working branch
-		
-		second change from working branch
-		
-		third change
-		
-		MP added new line
-		
-		<p/>
-		Line Added by Andy. #1. 
+		MP added first line
 		
 </body>
 </html>
