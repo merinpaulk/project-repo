@@ -10,7 +10,7 @@
 
 		Welcome to Spring Roo
 		<br/>
-		
+		MP added line new
 	<!--  commenting all below -->
 		<!-- MP added first line
 		
