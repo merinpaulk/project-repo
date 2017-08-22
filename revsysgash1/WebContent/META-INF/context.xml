@@ -1,0 +1,143 @@
+<Context>
+
+
+
+ <Resource name="jdbc/keyipreviewdb" 
+
+              auth="Container"
+
+              type="javax.sql.DataSource" 
+
+              username="fff" 
+
+              password=""
+
+              driverClassName="com.mysql.jdbc.Driver"
+
+              url=""
+              
+              autoReconnect="true"
+
+              maxActive="200" 
+
+              maxIdle="20"/>
+              
+              
+              
+              
+<!--  Following db access blocks are:
+	- Production  - ENABLED IN THE SVN VERSION (http://rs.recovertechnologies.com:8080/reviewsystem/)
+	- Scrapeserver shared DEV db
+	- developer Laptop
+        Comment out the appropriate block below, as required
+ -->
+
+
+<!-- Production  - http://rs.recovertechnologies.com:8080/reviewsystem/  -->
+<!-- 
+ <Resource name="jdbc/keyipreviewdb" 
+
+              auth="Container"
+
+              type="javax.sql.DataSource" 
+
+              username="p3suser1" 
+
+              password="11111"
+
+              driverClassName="com.mysql.jdbc.Driver"
+
+              url="jdbc:mysql://localhost:3306/p3s"
+              
+              autoReconnect="true"
+
+              maxActive="200" 
+
+              maxIdle="20"/>
+              
+              
+ 
+<Realm  className="org.apache.catalina.realm.JDBCRealm"
+             driverName="com.mysql.jdbc.Driver"
+          connectionURL="jdbc:mysql://localhost:3306/keyipreviewdb"
+         connectionName="ipreview_u1" connectionPassword="IPr3v1eW16db"
+              userTable="tcusers" userNameCol="user_name" userCredCol="user_pwd"
+          userRoleTable="tcroles" roleNameCol="role_name" />
+
+ -->
+
+
+
+
+<!--  developer Laptop -->
+<!--  
+ <Resource name="jdbc/keyipreviewdb" 
+
+              auth="Container"
+
+              type="javax.sql.DataSource" 
+
+              username="p3suser1" 
+
+              password="11111"
+
+              driverClassName="com.mysql.jdbc.Driver"
+
+              url="jdbc:mysql://localhost:3306/p3s"
+
+
+			  autoReconnect="true"
+
+              maxActive="30" 
+
+              maxIdle="5"/>
+      -->        
+ 
+ <!--  
+<Realm  className="org.apache.catalina.realm.JDBCRealm"
+             driverName="com.mysql.jdbc.Driver"
+          connectionURL="jdbc:mysql://localhost:3306/keyipreviewdb"
+         connectionName="ipreview_u1" connectionPassword="devpc"
+              userTable="tcusers" userNameCol="user_name" userCredCol="user_pwd"
+          userRoleTable="tcroles" roleNameCol="role_name" />
+-->
+
+<!--   ORG -  developer Laptop -->
+<!--
+ <Resource name="jdbc/keyipreviewdb" 
+
+              auth="Container"
+
+              type="javax.sql.DataSource" 
+
+              username="ipreview_u1" 
+
+              password="devpc"
+
+              driverClassName="com.mysql.jdbc.Driver"
+
+              url="jdbc:mysql://localhost:3306/keyipreviewdb"
+
+			  autoReconnect="true"
+
+              maxActive="30" 
+
+              maxIdle="5"/>
+              
+              
+ 
+<Realm  className="org.apache.catalina.realm.JDBCRealm"
+             driverName="com.mysql.jdbc.Driver"
+          connectionURL="jdbc:mysql://localhost:3306/keyipreviewdb"
+         connectionName="ipreview_u1" connectionPassword="devpc"
+              userTable="tcusers" userNameCol="user_name" userCredCol="user_pwd"
+          userRoleTable="tcroles" roleNameCol="role_name" />
+ -->
+
+
+
+
+
+</Context>
+
+

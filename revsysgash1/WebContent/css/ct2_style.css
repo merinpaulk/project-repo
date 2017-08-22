@@ -1,0 +1,111 @@
+/* CSS Document */
+
+
+#ct2banner {
+	height: 70px;
+	background: #004A7A;
+	width: 100%;
+	top: 0px;
+}
+
+#ct2topmiddle {
+	margin: 0 auto;
+	width: 85%;
+	height: 70px;
+	vertical-align: middle;
+}	
+	
+
+.ct2bannertitle {
+	font-size: 24px;
+	font-family: "Arial";
+	color: #FFFFFF;	
+	text-decoration:none;
+	font-weight:bold;
+	vertical-align:30%;
+}
+
+.bannertable td {
+	padding: 15px 0px 0px 0px;
+	style="text-align: left; 
+	float: left;
+}
+
+.bannertable input {
+	margin-left: 5em;
+}
+	
+
+#searchbox {
+	padding: 5px 0px 0px 0px;
+}
+
+#searchform {
+	padding: 0px;
+	border: 1px solid #cddde9;
+	width: 422px;
+	height:39px;
+	background:#fff;
+	border-radius: 3px;
+}
+
+#searchform input, #searchform select {
+	float:left;
+}
+
+#searchform select.searchentityselection {
+	height: 39px;
+	background-color: #F8F8F8;
+	padding: 3px;
+	border: none;
+	margin-left: 0px;
+	display: inline;
+	color: rgb(151, 150, 150);
+}
+
+#searchform input.searchtext {
+	margin-top: 1px;
+	color: #535353;
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top:0px;	
+	background-color: #FFF;
+	display: inline;
+	width: 240px;
+	height: 35px;
+	border: none;
+	float: left;
+	vertical-align:bottom;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+#searchform input.searchsubmit {
+	display: inline;
+	height: 19px;
+	width: 19px;
+	margin-top: 10px;
+	margin-left:10px;
+	border: none;
+	background-color: #FFF;
+	background-image: url("../img/search-icon.png");
+	float: left;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+#searchform input.searchsubmit:hover{
+	background-image: url("/casetracker2/resources/img/search-icon-hover.png");
+}
+
+
+
